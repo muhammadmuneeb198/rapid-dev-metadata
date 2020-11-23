@@ -1,0 +1,7 @@
+/.idea/
+/node_modules/
+/.env
+/*.alt
+/**/*.DS_Store
+/dw.json
+/*.zip

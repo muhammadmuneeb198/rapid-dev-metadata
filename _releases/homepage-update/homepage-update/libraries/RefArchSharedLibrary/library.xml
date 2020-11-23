@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31" library-id="RefArchSharedLibrary">
+    <content content-id="home-main">
+        <display-name xml:lang="x-default">Home Main</display-name>
+        <description xml:lang="x-default">Container for Home Page main image.</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;style&gt;&#13;
+                @media (max-width: 543px) {&#13;
+                .main-callout {&#13;
+                background-image: url(images/homepage/homepage-4/small.jpg?$staticlink$);&#13;
+                }&#13;
+                }&#13;
+                @media (max-width: 768px) and (min-width: 544px) {&#13;
+                .main-callout {&#13;
+                background-image: url(images/homepage/homepage-4/medium.jpg?$staticlink$);&#13;
+                }&#13;
+                }&#13;
+                @media (min-width: 992px) {&#13;
+                .main-callout {&#13;
+                background-image: url(images/homepage/homepage-4/large.jpg?$staticlink$);&#13;
+                }&#13;
+                }&#13;
+                &lt;/style&gt;&#13;
+                &lt;div class=&quot;hero main-callout&quot;&gt;&#13;
+                &lt;h1 class=&quot;page-title&quot;&gt;Homepage Updated via SFCC-CI Data Import&lt;/h1&gt;&#13;
+                &lt;/div&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+</library>

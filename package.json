@@ -1,0 +1,43 @@
+{
+  "name": "sfcc-ci-data-import",
+  "version": "1.0.0",
+  "description": "SFCC-CI: Automated Data Import Example (SFRA)",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0",
+    "recommended": "8.12.0"
+  },
+  "scripts": {
+    "data:help": "node index --help",
+    "data:zip": "node index data:zip",
+    "data:upload": "node index data:upload",
+    "data:import": "node index data:import",
+    "data:reindex": "node index data:reindex",
+    "data:rebuild": "node index data:rebuild",
+    "data:deploy": "node index data:deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SalesforceCommerceCloud/sfcc-ci-data-import.git"
+  },
+  "author": "Abraham Lloyd <abraham.lloyd@salesforce.com>",
+  "license": "ISC",
+  "homepage": "https://www.github.com/SalesforceCommerceCloud/sfcc-ci-data-import",
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb-base": "^5.0.1",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-sitegenesis": "~1.0.0"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "async-polling": "^0.2.1",
+    "child-process": "^1.0.2",
+    "commander": "^2.19.0",
+    "config": "^3.0.0",
+    "dotenv": "^6.2.0",
+    "moment": "^2.23.0",
+    "sfcc-ci": "git@github.com:SalesforceCommerceCloud/sfcc-ci.git",
+    "zip-folder": "^1.0.0"
+  }
+}

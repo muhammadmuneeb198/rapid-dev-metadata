@@ -1,0 +1,31 @@
+{
+
+  // Describes the file-name used to write the storefront-data archive
+  "zipFileName" : "sfra-data.zip",
+
+  // Describes the base-path where the storefront-data is stored
+  "basePath" : "./site-data/",
+
+  // Defaults the repoistory path where the zip-archivee is written
+  "fileArchivePath" : "./",
+
+  // Describes the polling interval used to query job-status
+  "pollingInterval" : 2000,
+
+  // Describes the collection of valid job statuses that we use for polling
+  "validPollingStatuses": [
+    "OK",
+    "PENDING",
+    "RUNNING"
+  ],
+
+  // Describes the name of the storefront-job used to process the site re-index
+  "reIndexJobName": "Reindex",
+
+  // Describes the name of the storefront-job used to process the site url-rebuilds
+  "rebuildJobName": "RebuildURLs",
+
+  // Defines the base path containing releases
+  "releaseFolderBasePath": "./_releases/"
+
+}
